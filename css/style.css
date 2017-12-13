@@ -4,6 +4,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 .container {
     display: grid;
     width: 100%;
@@ -24,8 +30,10 @@ nav {
     margin-right: 30px;
 
     font-weight: 100;
-    font-size: 12pt;
+    font-size: 1vw;
     color: #619EB3;
+
+
 }
 
 #logo {
@@ -51,16 +59,52 @@ li {
     text-align: center;
     padding: 15px 35px;
     font-weight: 100;
-    font-size: 10pt;
+    font-size: 1vw;
     display: inline-block;
+    cursor: pointer;
 }
 
 .hero {
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row-reverse;
 }
 
 .hero img {
     width: 100%;
+}
+
+#overlay {
+    position: absolute;
+    text-align: center;
+    bottom: 90px;
+    color: white;
+
+    margin-bottom: 25px;
+}
+
+#overlay h1 {
+    font-family: 'Helvetica', serif;
+    letter-spacing: 3.5px;
+    font-weight: 100;
+    font-size: 3vw;
+    line-height: 50px;
+}
+
+#overlay p {
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+#hero-nav {
+    position: absolute;
+    bottom: 60px;
+    letter-spacing: 3px;
+    color: white;
+    cursor: pointer;
 }
 
 .news {
