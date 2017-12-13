@@ -66,6 +66,7 @@ li {
 
 .hero {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: flex-end;
     flex-direction: row-reverse;
@@ -108,8 +109,16 @@ li {
 }
 
 .news {
+    display: flex;
+    flex-direction: row;
     height: 135px;
-    background-color: #184160;
+
+    background: #184160;
+}
+
+#banner {
+    max-width: 100%;
+    opacity: 0.5;
 }
 
 .about {
