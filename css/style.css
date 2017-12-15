@@ -334,6 +334,20 @@ li {
     align-items: center;
 }
 
+.awards figure {
+    display: inline-block;
+    position: relative;
+    margin: 25px;
+}
+
+.awards figcaption {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+
+    letter-spacing: 1.1px;
+}
+
 .awards img {
     margin: 25px;
 }
