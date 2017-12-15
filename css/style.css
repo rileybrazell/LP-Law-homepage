@@ -19,6 +19,21 @@ a {
     grid-template-columns: 1fr;
 }
 
+.lp-button {
+    width: 170px;
+    height: 44px;
+
+    border: none;
+    border-radius: 4px;
+
+    background-color: #619EB3;
+
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2.33px;
+}
+
 nav {
     display: flex;
     height: 100px;
@@ -49,14 +64,6 @@ li {
 }
 
 #contact {
-    background-color: #619EB3;
-    border: none;
-    border-radius: 4px;
-    color: white;
-    text-align: center;
-    padding: 15px 35px;
-    font-weight: 100;
-    font-size: 1vw;
     display: inline-block;
     cursor: pointer;
 }
@@ -194,18 +201,6 @@ li {
 }
 
 #about-text button{
-    font-weight: 700;
-    font-size: 14px;
-    color: white;
-    letter-spacing: 2.33;
-    text-align: center;
-
-    width: 170px;
-    height: 44px;
-    border: none;
-    border-radius: 4px;
-    background-color: #619EB3;
-
     margin-top: 40px;
 }
 
@@ -254,6 +249,7 @@ li {
 
 .testimonial #title .dividing-bar {
     margin: 0 auto;
+    margin-top: -10px;
 }
 
 .testimonial .quote {
@@ -289,24 +285,42 @@ li {
     justify-self: center;
 }
 
-.testimonial #footer button {
-    width: 170px;
-    height: 44px;
-
-    border: none;
-    border-radius: 4px;
-
-    background-color: #619EB3;
-
-    font-weight: 500;
-    font-size: 14px;
-    color: white;
-    letter-spacing: 2.33px;
-}
-
 .request {
     height: 330px;
     background-color: #F3F3F3;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.request h2 {
+    font-weight: 900;
+    color: #619EB3;
+    font-size: 22px;
+    letter-spacing: 2.57px;
+}
+
+.request .dividing-bar {
+    margin: 0 auto;
+}
+
+.request p {
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1.1px;
+    line-height: 25px;
+
+    max-width: 560px;
+    margin: 20px auto;
+}
+
+.request button {
+    margin: 0 auto;
 }
 
 .awards {
