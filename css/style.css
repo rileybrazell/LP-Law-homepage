@@ -326,6 +326,29 @@ li {
 .awards {
     height: 176px;
     border-bottom: solid 1px #EAE9E9;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.awards img {
+    margin: 25px;
+}
+
+.awards .superLawyers {
+    border: 1px solid #979797;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.awards figure {
+}
+
+.awards figcaption {
+    letter-spacing: 1.1px;
 }
 
 .index {
