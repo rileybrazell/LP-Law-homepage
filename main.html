@@ -1,5 +1,10 @@
 <!doctype html>
 
+<!--
+html code written by Riley Brazell, Santa Cruz CA, 2017
+web design and images provided by Sleepless Media, Santa Cruz CA, 2017
+-->
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -17,17 +22,17 @@
         <nav>
             <img id="logo" src="img/nav/4PeckLaw-simple-grey-teal.png" />
             <ul>
-                <li><a href="#">WHAT WE DO</a></li>
-                <li><a href="#">WHY US?</a></li>
-                <li><a href="#">WHAT OTHERS SAY</a></li>
-                <li><a href="#">MEET LISA</a></li>
-                <li><a href="#"><button class="lp-button" id="contact">REACH OUT</button></a></li>
-                <li><a href="#"><i class="ion-navicon" style="font-size: 2.5em;"></a></i>
-</li>
+                <li>WHAT WE DO</li>
+                <li>WHY US?</li>
+                <li>WHAT OTHERS SAY</li>
+                <li>MEET LISA</li>
+                <li><button class="lp-button" id="contact">REACH OUT</button></li>
+                <li><i class="ion-navicon" style="font-size: 2.5em;"></i></li>
             </ul>
         </nav>
         <div class="hero">
             <img src="img/hero/2880x1150_lisa_fisher_on_couch-edit.png" />
+            <!-- absolute positioned text area over full size image -->
             <div id="overlay">
                 <h1>YOUR VOICE HAS POWER.
                 <br />LET US HELP YOU FIND THAT VOICE.</h1>
@@ -35,6 +40,8 @@
                 <br />
                 <br />
             </div>
+            <!-- icons are treated as single encompassing area, maybe break out
+            into separate divs? -->
             <div id="hero-nav">
                 <i class="ion-record" style="font-size: 2em;"></i>
                 <i class="ion-ios-circle-outline" style="font-size: 2em;"></i>
@@ -89,6 +96,8 @@
                 </p>
                 <button class="lp-button">LEARN MORE</button>
             </div>
+            <!-- interesting that i can add an icon to the picture and then hook
+            that to jquery or something to trigger video, neat idea -->
             <div id="about-video">
                 <div id="about-video-image">
                     <img src="img/about/8373059.png" />
@@ -170,6 +179,9 @@
             <img src="img/awards/LC-Rating.png" />
             <img src="img/awards/Avvo.png" />
         </div>
+        <!-- this was much trickier than I expected, thought it would be a simple
+        grid solution, ended up needing to yank divs around to make it look
+        right -->
         <div class="index">
             <div class="explore">
                 <div id="explore-1">
