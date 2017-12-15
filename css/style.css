@@ -361,6 +361,53 @@ li {
 .index {
     height: 275px;
     border-bottom: solid 1px #EAE9E9;
+
+    display: flex;
+    width: 100%;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.index ul {
+    list-style: none;
+}
+
+.index h4 {
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 4px;
+    color: #619EB3;
+    line-height: 24px;
+}
+
+.index i {
+    color: #B1D2DB;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.index #contact-us li {
+    margin-top: -10px;
+}
+
+.index .explore {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.index #explore-1 {
+    margin-top: 30px;
+}
+
+.index #explore-2 {
+    margin-top: 80px;
+}
+
+.index #contact-us {
+    margin-top: 40px;
 }
 
 .footer {
