@@ -17,7 +17,6 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
 }
 
 nav {
@@ -32,8 +31,6 @@ nav {
     font-weight: 100;
     font-size: 1vw;
     color: #619EB3;
-
-
 }
 
 #logo {
@@ -146,13 +143,49 @@ li {
 .news-item p {
     color: white;
     margin-left: 30px;
-    font-family: 'Helvetica', serif;
+    font-family: 'Helvetica', sans-serif;
     letter-spacing: 1px;
     line-height: 23px;
 }
 
 .about {
     height: 675px;
+    padding: 100px 150px 100px 150px;
+}
+
+.dividing-bar {
+    width: 30px;
+    height: 4px;
+    background-color: #B1D2DB;
+}
+
+#about-text {
+    max-width: 560px;
+}
+
+#about-text h2 {
+    font-weight: 900;
+    letter-spacing: 2.57px;
+    font-size: 22px;
+    color: #619EB3;
+}
+
+#about-text h4 {
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 300;
+    font-size: 18px;
+    color: #619EB3;
+    letter-spacing: 1.06px;
+    line-height: 28px;
+}
+
+#about-text p {
+    font-family: 'Helvetica', 'sans-serif';
+    font-weight: 300;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 23px;
 }
 
 .testimonial {
