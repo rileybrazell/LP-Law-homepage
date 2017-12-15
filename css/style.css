@@ -151,6 +151,10 @@ li {
 .about {
     height: 675px;
     background-color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .dividing-bar {
@@ -203,6 +207,10 @@ li {
     background-color: #619EB3;
 
     margin-top: 40px;
+}
+
+#about-video {
+    display: inline-block;
 }
 
 .testimonial {
