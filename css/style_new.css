@@ -42,8 +42,6 @@ a {
 
 /*NAVBAR START*/
 nav {
-    width: 100%;
-
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -81,6 +79,14 @@ nav ul {
 nav ul li {
     margin: 0.8rem;
     letter-spacing: 0.125rem;
+}
+
+#menu-button {
+    width: 2vw;
+}
+
+#menu-button:hover {
+    cursor: pointer;
 }
 /*NAVBAR END*/
 
@@ -133,3 +139,155 @@ nav ul li {
     margin-right: 0.15rem;
 }
 /*CALL TO ACTION END*/
+
+/*NEWS START*/
+.news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    background: linear-gradient(rgba(24, 65, 96, 0.5), rgba(24, 65, 96, 0.5)), url("../img/news/matthew-kane-278419(1)-copy-2.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.news .vertical-rule {
+    width: 1px;
+    height: 6vw;
+    background-color: #FFF;
+}
+
+.news .news-item {
+    width: 30vw;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    word-wrap: break-word;
+
+    padding: 1.785rem 1.675rem;
+}
+
+.news .news-item p {
+    color: #FFF;
+
+    font-size: 1vw;
+    margin-left: 1.875rem;
+    font-family: 'Helvetica', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.437rem;
+
+    transition: 0.3s;
+}
+
+.news .news-item p:hover {
+    color: #dedcdb;
+}
+/*NEWS END*/
+
+/*ABOUT START*/
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .dividing-bar {
+    width: 2.187rem;
+    height: 0.25rem;
+    background-color: #B1D2DB;
+
+    margin-bottom: 1rem;
+}
+
+#about-text {
+    padding: 4rem;
+}
+
+#about-text h2 {
+    font-weight: 900;
+    letter-spacing: 0.16rem;
+    font-size: 1.5rem;
+    color: #619EB3;
+
+    padding-bottom: 1rem;
+}
+
+#about-text h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #619EB3;
+    letter-spacing: 0.06rem;
+    line-height: 2rem;
+
+    padding-bottom: 1rem;
+}
+
+#about-text p {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+    color: #000;
+    letter-spacing: 0.06rem;
+    line-height: 1.437rem;
+}
+
+#about-text p {
+    padding-bottom: 1rem;
+}
+
+#about-text button {
+    /*margin-top: 2.5rem;*/
+}
+
+#about-video-image {
+    position: relative;
+    padding-right: 4rem;
+}
+
+#about-video-image img {
+
+}
+
+#play-button {
+    position: absolute;
+    bottom: 1.562rem;
+    left: 1.562rem;
+
+    width: 2.5rem;
+
+    z-index: 1;
+}
+
+#about-video-text {
+    padding-top: 1rem;
+}
+
+#about-video-text span:nth-of-type(1) {
+    font-weight: 700;
+    letter-spacing: 2.33px;
+    font-size: 17px;
+    color: #619EB3;
+}
+
+#about-video-text span:nth-of-type(2) {
+    letter-spacing: 0.75px;
+    font-size: 17px;
+}
+
+#about-video-text span:nth-of-type(3) {
+    font-family: 'Raleway', 'sans-serif';
+    letter-spacing: 0.75px;
+    font-size: 14px;
+}
+/*ABOUT END*/

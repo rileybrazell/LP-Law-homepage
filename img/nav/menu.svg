@@ -1,3 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="47.28643839573089 87.55879440736535 61.970000000000006 34.5" width="57.47" height="30"><defs><path d="M106.26 89.06L48.79 89.06" id="aonnCwyIX"></path><path d="M106.26 104.06L48.79 104.06" id="cFIPMkqs"></path><path d="M106.26 119.06L48.79 119.06" id="b10B3RmAx3"></path></defs><g><g><g><use xlink:href="#aonnCwyIX" opacity="1" fill-opacity="0" stroke="#619eb3" stroke-width="3" stroke-opacity="1"></use></g></g><g><g><use xlink:href="#cFIPMkqs" opacity="1" fill-opacity="0" stroke="#619eb3" stroke-width="3" stroke-opacity="1"></use></g></g><g><g><use xlink:href="#b10B3RmAx3" opacity="1" fill-opacity="0" stroke="#619eb3" stroke-width="3" stroke-opacity="1"></use></g></g></g></svg>
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="34" width="34" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" fill="#619eb3" d="m1,7l30,0c0.552,0 1,-0.448 1,-1c0,-0.552 -0.448,-1 -1,-1l-30,0c-0.552,0 -1,0.448 -1,1c0,0.552 0.448,1 1,1z"/>
+  <path id="svg_2" fill="#619eb3" d="m31,15l-30,0c-0.552,0 -1,0.448 -1,1c0,0.552 0.448,1 1,1l30,0c0.552,0 1,-0.448 1,-1c0,-0.552 -0.448,-1 -1,-1z"/>
+  <path id="svg_3" fill="#619eb3" d="m31,25l-30,0c-0.552,0 -1,0.448 -1,1c0,0.552 0.448,1 1,1l30,0c0.552,0 1,-0.448 1,-1c0,-0.552 -0.448,-1 -1,-1z"/>
+ </g>
+</svg>
