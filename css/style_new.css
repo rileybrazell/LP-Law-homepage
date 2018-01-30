@@ -31,7 +31,7 @@ a {
     background-color: #619EB3;
 
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1vw;
     color: white;
     letter-spacing: 0.145rem;
     text-align: center;
@@ -50,8 +50,8 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
 
     background-color: #FFFFFF;
 }
@@ -74,29 +74,29 @@ nav ul {
     align-items: center;
 
     font-weight: 100;
-    font-size: 0.875rem;
+    font-size: 0.975vw;
     color: #619EB3;
 }
 
 nav ul li {
     margin: 0.8rem;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
 /*NAVBAR END*/
 
 /*CALL TO ACTION START*/
 .action {
     background: url('../img/action/2880x1150_lisa_fisher_on_couch-edit.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
 
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 
-    padding-top: 10rem;
-    padding-bottom: 8rem;
+    padding-top: 12vw;
+    padding-bottom: 6vw;
 
     justify-content: center;
     align-items: center;
@@ -104,10 +104,10 @@ nav ul li {
 
 .action h1 {
     font-family: 'Helvetica', serif;
-    letter-spacing: 3.5px;
+    letter-spacing: 0.222rem;
     font-weight: 100;
-    font-size: 2.275rem;
-    line-height: 3.125rem;
+    font-size: 3vw;
+    line-height: 4vw;
 
     color: #FFFFFF;
 }
@@ -119,12 +119,17 @@ nav ul li {
 .action p {
     color: #FFF;
     font-weight: 700;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    letter-spacing: 2px;
+    font-size: 1.25vw;
+    line-height: 1.875vw;
+    letter-spacing: 0.125rem;
 }
 
 .action p:last-of-type {
-    margin-bottom: 3em;
+    margin-bottom: 5em;
+}
+
+.action img {
+    width: 2.675vw;
+    margin-right: 0.15rem;
 }
 /*CALL TO ACTION END*/
